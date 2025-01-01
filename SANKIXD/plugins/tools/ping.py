@@ -17,7 +17,7 @@ from config import BANNED_USERS
 async def ping_com(client, message: Message, _):
     start = datetime.now()
     response = await message.reply_video(
-        video="https://telegra.ph/file/5a9a513482f4236022cea.mp4",
+        video="https://firebasestorage.googleapis.com/v0/b/social-bite-skofficial.appspot.com/o/Sanki%2F1666510554797522723.mp4?alt=media&token=56bf62c7-a6de-44ea-9bc4-adeefbd8ad2d",
         caption=_["ping_1"].format(app.mention),
     )
     pytgping = await SANKI.ping()
